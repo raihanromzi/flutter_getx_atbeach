@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1085884959313",
+    "project_id": "atbeach-database",
+    "storage_bucket": "atbeach-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085884959313:android:bbec3e7cde10b8c6bbc670",
+        "android_client_info": {
+          "package_name": "kelompok10.atbeach_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085884959313-ietnf6kpshuabmqgs4bnjanr9ies0shh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kelompok10.atbeach_app",
+            "certificate_hash": "b3ba0e99d84cbfa7a19d0adf5146a9850bf6363d"
+          }
+        },
+        {
+          "client_id": "1085884959313-fes7bgeqg97n48m9p7tusdoi5p9u1jbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuC6EY-I4RsaU1agkrCGHu9E69wYkIDAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085884959313-fes7bgeqg97n48m9p7tusdoi5p9u1jbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
