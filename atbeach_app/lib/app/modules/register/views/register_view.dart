@@ -93,7 +93,7 @@ class RegisterView extends GetView<RegisterController> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: const [
                                     Text(
-                                      'Login',
+                                      'Register',
                                       style: TextStyle(
                                           fontFamily: 'Poppins',
                                           fontWeight: FontWeight.w500,
@@ -115,7 +115,7 @@ class RegisterView extends GetView<RegisterController> {
                                       color: AppColorTheme.line)),
                               TextButton(
                                 onPressed: () => Get.to(const LoginView()),
-                                child: const Text('Sign in',
+                                child: const Text('Log in',
                                     style: TextStyle(
                                         fontFamily: 'Poppins',
                                         fontWeight: FontWeight.w700,
