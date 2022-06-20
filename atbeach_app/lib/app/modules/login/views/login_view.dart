@@ -54,6 +54,7 @@ class LoginView extends GetView<LoginController> {
                     const SizedBox(height: 20),
                     TextFormField(
                         decoration: InputDecoration(
+                      prefixIcon: const Icon(Icons.remove_red_eye),
                       filled: true,
                       fillColor: const Color(0xFFF7F8F9),
                       hintText: 'Enter you password',
@@ -64,7 +65,7 @@ class LoginView extends GetView<LoginController> {
                     SizedBox(
                       width: double.infinity,
                       child: MaterialButton(
-                          onPressed: () => Get.to(const HomeView()),
+                          onPressed: () => Get.offAll(const HomeView()),
                           padding: const EdgeInsets.symmetric(
                               horizontal: 30, vertical: 18),
                           shape: RoundedRectangleBorder(
@@ -96,7 +97,7 @@ class LoginView extends GetView<LoginController> {
                                 fontSize: 18,
                                 color: AppColorTheme.line)),
                         TextButton(
-                          onPressed: () => Get.to(const RegisterView()),
+                          onPressed: () => Get.offAll(const RegisterView()),
                           child: const Text('Sign up',
                               style: TextStyle(
                                   fontFamily: 'Poppins',

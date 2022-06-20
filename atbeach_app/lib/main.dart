@@ -15,25 +15,25 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // return GetMaterialApp(
-    //   debugShowCheckedModeBanner: false,
-    //   title: "AtBeach App",
-    //   initialRoute: Routes.HOME,
-    //   getPages: AppPages.routes,
-    // );
-    return FutureBuilder(
-        future: Future.delayed(const Duration(seconds: 4)),
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return const SplashScreen();
-          } else {
-            return GetMaterialApp(
-              debugShowCheckedModeBanner: false,
-              title: "AtBeach App",
-              initialRoute: Routes.ONBOARDING,
-              getPages: AppPages.routes,
-            );
-          }
-        });
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: "AtBeach App",
+      initialRoute: Routes.HOME,
+      getPages: AppPages.routes,
+    );
+    // return FutureBuilder(
+    //     future: Future.delayed(const Duration(seconds: 4)),
+    //     builder: (context, snapshot) {
+    //       if (snapshot.connectionState == ConnectionState.waiting) {
+    //         return const SplashScreen();
+    //       } else {
+    //         return GetMaterialApp(
+    //           debugShowCheckedModeBanner: false,
+    //           title: "AtBeach App",
+    //           initialRoute: Routes.ONBOARDING,
+    //           getPages: AppPages.routes,
+    //         );
+    //       }
+    //     });
   }
 }

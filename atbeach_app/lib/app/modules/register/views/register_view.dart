@@ -63,6 +63,7 @@ class RegisterView extends GetView<RegisterController> {
                           const SizedBox(height: 20),
                           TextFormField(
                               decoration: InputDecoration(
+                            prefixIcon: const Icon(Icons.remove_red_eye),
                             filled: true,
                             fillColor: const Color(0xFFF7F8F9),
                             hintText: 'Enter you password',
@@ -72,6 +73,7 @@ class RegisterView extends GetView<RegisterController> {
                           const SizedBox(height: 20),
                           TextFormField(
                               decoration: InputDecoration(
+                            prefixIcon: const Icon(Icons.remove_red_eye),
                             filled: true,
                             fillColor: const Color(0xFFF7F8F9),
                             hintText: 'Confirm your password',
